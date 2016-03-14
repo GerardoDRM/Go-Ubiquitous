@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.udacity.gerardo.sunshinewatchface">
+    package="com.udacity.gerardo.app">
 
     <uses-feature android:name="android.hardware.type.watch" />
 
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault">
         <service
-            android:name=".SunshineWatchFaceService"
+            android:name="com.udacity.gerardo.app.SunshineWatchFaceService"
             android:label="@string/my_digital_name"
             android:permission="android.permission.BIND_WALLPAPER">
             <meta-data
